@@ -1,5 +1,14 @@
 {
-	"test": {
-		"text": "Hello, World!"
+	"русский": {
+		"description": "idk put some words about russian here",
+		"words": [
+			"слова"
+		]
+	},
+	"日本語": {
+		"description": "idk put some words about japanese here",
+		"words": [
+			"言葉"
+		]
 	}
 }
