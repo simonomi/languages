@@ -1,3 +1,5 @@
 {
-	"test": "Hello, World!"
+	"test": {
+		"text": "Hello, World!"
+	}
 }
