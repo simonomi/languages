@@ -1,14 +1,12 @@
 [
 	{
-		"日本語": {
-			"description": "idk put some words about japanese here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus dolor sed maximus finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus sagittis quam tortor, eu gravida dui bibendum a. Pellentesque non consequat enim. Curabitur ante lectus, vulputate eu diam vitae, tempor pulvinar tellus.",
-			"words": ["{易|やさ}しい（定義）", "易しい（読み）", "{語彙|ご|い}（定義）", "語彙（読み）", "{一寸|ちょ|っと}（定義）", "一寸（読み）（珍しい）", "{顔|かお}（定義）", "顔（読み）", "{言葉|こと|ば}（定義）", "言葉（読み）", "{読|よ}む（定義）", "読む（読み）", "〜{番|ばん}（定義）", "{番|ばん}（定義）", "番（読み）"]
-		},
+		"name": "日本語",
+		"description": "idk put some words about japanese here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus dolor sed maximus finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus sagittis quam tortor, eu gravida dui bibendum a. Pellentesque non consequat enim. Curabitur ante lectus, vulputate eu diam vitae, tempor pulvinar tellus.",
+		"words": ["{易|やさ}しい（定義）", "易しい（読み）", "{語彙|ご|い}（定義）", "語彙（読み）", "{一寸|ちょ|っと}（定義）", "一寸（読み）（珍しい）", "{顔|かお}（定義）", "顔（読み）", "{言葉|こと|ば}（定義）", "言葉（読み）", "{読|よ}む（定義）", "読む（読み）", "〜{番|ばん}（定義）", "{番|ばん}（定義）", "番（読み）"]
 	},
 	{
-		"русский": {
-			"description": "idk put some words about russian here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus dolor sed maximus finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus sagittis quam tortor, eu gravida dui bibendum a. Pellentesque non consequat enim. Curabitur ante lectus, vulputate eu diam vitae, tempor pulvinar tellus.",
-			"words": ["общих", "я", "мы", "ты", "вы", "он", "она", "они", "и", "а", "в", "не", "это", "тот", "тут", "там", "что", "как", "дело", "быть", "сказать", "привет", "весь", "с", "по", "но", "так", "который", "мочь", "человек", "о"]
-		}
+		"name": "русский",
+		"description": "idk put some words about russian here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus dolor sed maximus finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus sagittis quam tortor, eu gravida dui bibendum a. Pellentesque non consequat enim. Curabitur ante lectus, vulputate eu diam vitae, tempor pulvinar tellus.",
+		"words": ["общих", "я", "мы", "ты", "вы", "он", "она", "они", "и", "а", "в", "не", "это", "тот", "тут", "там", "что", "как", "дело", "быть", "сказать", "привет", "весь", "с", "по", "но", "так", "который", "мочь", "человек", "о"]
 	}
 ]
