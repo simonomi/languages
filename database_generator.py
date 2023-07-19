@@ -23,7 +23,7 @@ def identity(x):
 	return x
 
 # MARK: config
-database_file = "db.json"
+database_file = "languages.json"
 obsidian_path = "/Users/simonomi/Library/Mobile Documents/iCloud~md~obsidian/Documents/"
 notes_to_skip = ["ひらがな", "カタカナ", "助詞"]
 
@@ -72,4 +72,4 @@ for language in languages:
 output_data = [x.__dict__ for x in languages]
 
 with open(database_file, "w") as file:
-	dump(output_data, file, ensure_ascii=False, indent="\t")
+	dump(output_data, file, ensure_ascii=False)
