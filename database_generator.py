@@ -30,11 +30,11 @@ notes_to_skip = ["ひらがな", "カタカナ", "助詞"]
 languages = [
 	Language(
 		"日本語", 
-		"japanese description"
+		"japanese is one of the languages most different from english. as such, for a native english speaker, learning japanese is quite the interesting challenge. new sentence structure, new grammar, not one, not two, but THREE new writing systems, one of which is kanji for crying out loud! i quite enjoy learning all the new concepts."
 	),
 	Language(
 		"русский", 
-		"russian description"
+		"i have... mixed feelings about russian. on one hand, coming from japanese, its wayyy more similar to english, making it (theoretically) easier to learn. on the other hand, how can one be expected to pronounce 12 different consonants in a row??? this language is so funky and i really just don't know how to feel about it."
 	)
 ]
 
