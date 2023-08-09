@@ -19,7 +19,7 @@ class Note:
 		self.terms = _terms
 		self.new = _new
 
-flashcard_regex = compile(r"(.*?)(?:「.+」|（.+）|{(?:L|H)+})?:::?.*")
+flashcard_regex = compile(r"(.*?)(?:「.+」|（.+）|{(?:L|H)+})*:::?.*")
 comment_regex = compile(r"<!--[\w\W]*?(?:-->|$)")
 markup_regex = compile(r"(?P<delim>\*\*|\*|__|_)(?P<text>[^\*_]+)(?P=delim)")
 
