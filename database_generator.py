@@ -53,9 +53,8 @@ for language in languages:
 	language_files = glob(obsidian_path + language.name + "/**/*.md", recursive=True)
 	
 	old_language = [x for x in old_languages if x["name"] == language.name][0]
-	old_words = old_language["words"] + old_language["new"]
-	# old_words = [].join([x["terms"] + x["new"] for x in old_language["notes"]])
-	
+	old_words = [word for note in old_language["notes"] for word in note["terms"] + note["new"]]
+
 	for language_file in language_files:
 		note_name = language_file.split("/")[-1][:-3]
 		if note_name in notes_to_skip: continue
